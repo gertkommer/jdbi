@@ -60,7 +60,6 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 @Fork(4)
 public class BeanBindingBenchmark {
     private static final int INNER_LOOPS = 10_000;
-    @SuppressWarnings("PREDICTABLE_RANDOM")
     private final ThreadLocalRandom random = ThreadLocalRandom.current();
     private JdbiRule db;
     private Dao dao;

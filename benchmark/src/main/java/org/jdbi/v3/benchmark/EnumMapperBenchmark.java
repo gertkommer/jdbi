@@ -42,7 +42,6 @@ import org.openjdk.jmh.annotations.Warmup;
 @Fork(1)
 public class EnumMapperBenchmark {
 
-    @SuppressWarnings("PREDICTABLE_RANDOM")
     private ThreadLocalRandom random = ThreadLocalRandom.current();
     private JdbiRule db;
     private Jdbi jdbi;

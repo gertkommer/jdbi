@@ -41,7 +41,6 @@ public class EnumBenchmark {
     private JdbiRule db;
     private Jdbi jdbi;
 
-    @SuppressWarnings("PREDICTABLE_RANDOM")
     private ThreadLocalRandom random = ThreadLocalRandom.current();
 
     @Setup

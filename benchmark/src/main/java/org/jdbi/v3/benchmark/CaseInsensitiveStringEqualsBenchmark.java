@@ -50,7 +50,6 @@ public class CaseInsensitiveStringEqualsBenchmark {
         new Runner(options).run();
     }
 
-    @SuppressWarnings("PREDICTABLE_RANDOM")
     private ThreadLocalRandom random = ThreadLocalRandom.current();
     private String original;
     private String copy;
